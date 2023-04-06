@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.img-content{
+    background-color: #000000;
+    color: #fff;
+    height: 90px;
+    display: flex;
+    align-items: center;
+
+
+}
+.menu{
+   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+    width: 20px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+
+
+
+}
+
+
+.logo{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    padding-right: 145px;
+}
+.icon{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding-right: 30px;
+}
+.content_1{
+    display: flex;
+
+}
+.qoute{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7%;
+}
+.qoute a{
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.qoute p{
+    font-family: 'Apercu Pro Regular' !important;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+.qoute button{
+    cursor: pointer;
+    width: 180px;
+    padding: 15px;
+    color: #ffff;
+    background-color: #000000;
+
+
+}
+.addToCart{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 235px;
+    margin-top: 20px;
+}
+.price1{
+    margin-left: 7px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.price2{
+    margin-left: 80px;
+    margin-top: 7px;
+}
+.price3{
+    padding-top: 0px;
+    margin-top: 1px;
+    padding-right: 201px;
+}
+.addToCart{
+    margin-top: 50px;
+    padding-bottom: 50-px;
+    
+}
+
+.cartSection {
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.imageSection{
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.imageSection p del{
+    color: gray;
+}
+.offer{
+    
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop{
+    font-size: 36px;
+    height: 36px;
+    text-align: start;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 89px;
+    margin-top: 70px;
+}
+.line{
+    font-style: "Apercu Pro Regular";
+}
+/* .bannereye{ */
+    /* margin-left: 209px; */
+
+
+.text{
+    text-align: center;
+    line-height: 36px;
+    font-size: 36px;
+    font-style: Gilroy-Bold;
+}
+
+.downtext{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.cartSection1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cartSection2{
+   /*/ display: flex;
+    flex-direction: row;/*/
+    display: flex;
+    justify-content:center;
+    margin-top: -116px;
+
+    
+    }
+    .imageSections{
+        padding-right: 10px;
+        position: relative;
+       
+    }
+    
+
+.eyebanner{
+   justify-content: center;
+   display: flex;
+}
+
+.imageSections img{
+    height: 300px;
+    width: 300px;
+
+}
+.imageSections button{
+    background-color: rgb(255, 251, 251);
+    color: rgb(8, 8, 8);
+    height: 64.31px;
+    width: 223.36px;
+    margin-top: 20px;
+    position: absolute;
+    left: 40px;
+    z-index: 1;
+    border: 0;
+    top: 103px;
+    
+}
+
+.addToCart{
+    margin-top: 50px;
+    padding-bottom: 50-px;
+    
+}
+
+.last{
+    display: flex;
+      flex-direction: row;
+        font-size: medium;
+      margin-bottom:260px;
+    font-size: medium;
+}
+
+/* Recently-Viewed */
+.Recently-Viewed{
+    display: flex;
+    justify-content: center;
+    height: 820px;
+}
+.recent-txt-div{
+    position: relative;
+}
+.recent-txt-div div{
+    position: absolute;
+    width: 250px;
+    text-align: center;
+    top: 80px;
+    font-family: "Gilroy Bold";
+    left: 420px;
+    font-weight: 600;
+}
+
+/*Our-values*/
+.Our-values{
+    width:100%;
+    height: 400px;
+}
+.header-txt-div{
+    text-align: center;
+    font-size: 25px;
+}
+.values-div{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.values{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.values h3{
+    font-size: 23px;
+}
+.values p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #707070;
+    font-weight: 400;
+}
+.values img{
+    height: 50px;
+}
+
+/* footer */
+footer{
+    background-color:  rgb(3, 3, 3);
+    height: 555px;
+}
+.footer-div-1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+ }
+  .footerleft span{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+  .footerleft-2 span{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .footerleft{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline gray 1px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .footerleft-2{
+    margin-left: 60px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline gray 1px;
+    line-height: 30px;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  .footerleft h4:hover{
+    text-decoration: underline #fff;
+  }
+  .footerleft-2 h4:hover{
+    text-decoration: underline #fff;
+  }
+  .social-footer{
+    width: 100%;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+  }
+  .social-div{
+   
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.525);
+    height: 155px;
+  }
+  .block{
+    background-color: #e8e6e6ed;
+    width:100%;
+    height: 300px;
+
+    padding: 50px;
+  }
+  
+   .blocker{
+    background-color: #fefdfd;
+   text-align: center;
+    
+   
+    width: 366px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+
+   }
+   .contentblock{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #EEEEEE;
+    padding: 100px;
+   }
+    
+  .social-div {
+color: #fefdfd7c;
+size: 0px;
+margin-left: 90px;
+padding-top: 20px;
+  }
+.social-footer p{
+   color: #868686;
+   line-height: 30px;
+   
+}
+.fa-instagram{
+    color: rgb(163, 165, 165);
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+  
+.fa-facebook{
+    color: rgb(163, 165, 165);
+    font-size: 25px;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: #fff;
+}
+.fa-instagram:hover{
+    color: #fff;
+}
